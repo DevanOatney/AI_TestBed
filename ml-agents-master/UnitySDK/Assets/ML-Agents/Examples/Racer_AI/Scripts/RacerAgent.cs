@@ -1,14 +1,20 @@
 ﻿using MLAgents;
 
-public class RacerAgent : Agent {
+public class RacerAgent : Agent
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public override void InitializeAgent()
+    {
+        base.InitializeAgent();
+    }
+
+    public override void AgentReset()
+    {
+
+    }
+
+    public override void AgentAction(float[] vectorAction, string textAction)
+    {
+
+    }
 }
